@@ -18,6 +18,11 @@ _global_script_class_icons={
 config/name="Tutorial Steering Behaviors"
 config/icon="res://icon.png"
 
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="world"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
