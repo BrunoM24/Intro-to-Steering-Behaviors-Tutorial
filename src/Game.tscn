@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/graph-paper.svg" type="Texture" id=1]
 [ext_resource path="res://src/objects/Circle.tscn" type="PackedScene" id=2]
 [ext_resource path="res://src/agents/CharacterFollow.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/agents/CharacterArriveTo.tscn" type="PackedScene" id=4]
 
 [node name="Game" type="Node2D"]
 
@@ -42,4 +43,9 @@ position = Vector2( 551.498, 146.132 )
 position = Vector2( 754.995, 329.448 )
 
 [node name="CharacterFollow" parent="." instance=ExtResource( 3 )]
+visible = false
 position = Vector2( 201.686, 198.268 )
+
+[node name="CharacterArriveTo" parent="." instance=ExtResource( 4 )]
+position = Vector2( 134.344, 531.645 )
+slow_radius = 500.0
