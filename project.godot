@@ -19,6 +19,10 @@ config/name="Tutorial Steering Behaviors"
 run/main_scene="res://src/Game.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Steering="*res://src/autoload/Steering.gd"
+
 [input]
 
 click={
