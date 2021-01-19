@@ -47,8 +47,8 @@ position = Vector2( 551.498, 146.132 )
 position = Vector2( 754.995, 329.448 )
 
 [node name="CharacterFollow" parent="." instance=ExtResource( 3 )]
-visible = false
 position = Vector2( 201.686, 198.268 )
+target_path = NodePath("../CharacterArriveTo")
 
 [node name="CharacterArriveTo" parent="." instance=ExtResource( 4 )]
 position = Vector2( 134.344, 531.645 )
