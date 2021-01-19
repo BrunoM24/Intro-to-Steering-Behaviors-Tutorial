@@ -8,6 +8,8 @@
 
 [node name="Game" type="Node2D"]
 
+[node name="Target" parent="." instance=ExtResource( 5 )]
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 layer = -1
 
@@ -21,6 +23,7 @@ margin_left = -716.0
 margin_top = -434.0
 margin_right = 1860.0
 margin_bottom = 1038.0
+mouse_filter = 2
 color = Color( 0.11, 0.27, 0.53, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -50,5 +53,3 @@ position = Vector2( 201.686, 198.268 )
 [node name="CharacterArriveTo" parent="." instance=ExtResource( 4 )]
 position = Vector2( 134.344, 531.645 )
 slow_radius = 500.0
-
-[node name="Target" parent="." instance=ExtResource( 5 )]
